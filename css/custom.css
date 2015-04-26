@@ -1,0 +1,139 @@
+@charset "utf-8";
+/* CSS Document */
+div.change_bg {width: 100%;
+  height: 100%;
+}
+div.change_bg {
+  -webkit-animation: bg_change 1s infinite alternate;
+  -moz-animation: bg_change 1s infinite alternate;
+  -ms-animation: bg_change 1s infinite alternate;
+  -o-animation: bg_change 1s infinite alternate;
+  animation: bg_change 1s infinite alternate;
+}
+div.change_bg {
+  animation-name: bg_change;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@-webkit-keyframes bg_change {
+      0% {background-color: #a12fdc;}
+     10% {background-color: #6c6ff6;}
+     20% {background-color: #02bfef;}
+     30% {background-color: #2ddaa3;}
+     40% {background-color: #88de59;}
+	 50% {background-color: #f2ea64;}
+     60% {background-color: #fb8849;}
+     70% {background-color: #f95170;}
+	 80% {background-color: #f94548;}
+     90% {background-color: #c7c6c6;}
+     100% {background-color: #353638;}
+}
+@-moz-keyframes bg_change {
+      0% {background-color: #a12fdc;}
+     10% {background-color: #6c6ff6;}
+     20% {background-color: #02bfef;}
+     30% {background-color: #2ddaa3;}
+     40% {background-color: #88de59;}
+	 50% {background-color: #f2ea64;}
+     60% {background-color: #fb8849;}
+     70% {background-color: #f95170;}
+	 80% {background-color: #f94548;}
+     90% {background-color: #c7c6c6;}
+     100% {background-color: #353638;}
+}
+@-ms-keyframes bg_change {
+      0% {background-color: #a12fdc;}
+     10% {background-color: #6c6ff6;}
+     20% {background-color: #02bfef;}
+     30% {background-color: #2ddaa3;}
+     40% {background-color: #88de59;}
+	 50% {background-color: #f2ea64;}
+     60% {background-color: #fb8849;}
+     70% {background-color: #f95170;}
+	 80% {background-color: #f94548;}
+     90% {background-color: #c7c6c6;}
+     100% {background-color: #353638;}
+}
+@-o-keyframes bg_change {
+      0% {background-color: #a12fdc;}
+     10% {background-color: #6c6ff6;}
+     20% {background-color: #02bfef;}
+     30% {background-color: #2ddaa3;}
+     40% {background-color: #88de59;}
+	 50% {background-color: #f2ea64;}
+     60% {background-color: #fb8849;}
+     70% {background-color: #f95170;}
+	 80% {background-color: #f94548;}
+     90% {background-color: #c7c6c6;}
+     100% {background-color: #353638;}
+}
+.always_center {position: absolute;  top: 50%;  left: 50%;  -webkit-transform: translate(-50%, -50%);-moz-transform: translate(-50%, -50%);-ms-transform: translate(-50%, -50%);-o-transform: translate(-50%, -50%);}
+.always_center h2{font-size:4rem;font-family: 'Joti One', cursive;line-height: 1;}
+.always_center p{font-size:2.5rem;font-family: 'Open Sans Condensed', sans-serif;line-height: 1;color: rgba(0, 0, 0, 0.4);}
+
+.color_change {
+  -webkit-animation: color_change 1s infinite alternate;
+  -moz-animation: color_change 1s infinite alternate;
+  -ms-animation: color_change 1s infinite alternate;
+  -o-animation: color_change 1s infinite alternate;
+  animation: color_change 1s infinite alternate;
+}
+.color_change {
+  animation-name: color_change;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@-webkit-keyframes color_change {
+      0% {color: #7008a6;}
+     10% {color: #4245ce;}
+     20% {color: #087793;}
+     30% {color: #16805e;}
+     40% {color: #56ae26;}
+	 50% {color: #cbc224;}
+     60% {color: #c85d22;}
+     70% {color: #ca2947;}
+	 80% {color: #cc2124;}
+     90% {color: #9e9a9a;}
+     100% {color: #242527;}
+}
+@-moz-keyframes color_change {
+     0% {color: #7008a6;}
+     10% {color: #4245ce;}
+     20% {color: #087793;}
+     30% {color: #16805e;}
+     40% {color: #56ae26;}
+	 50% {color: #cbc224;}
+     60% {color: #c85d22;}
+     70% {color: #ca2947;}
+	 80% {color: #cc2124;}
+     90% {color: #9e9a9a;}
+     100% {color: #242527;}
+}
+@-ms-keyframes color_change {
+      0% {color: #7008a6;}
+     10% {color: #4245ce;}
+     20% {color: #087793;}
+     30% {color: #16805e;}
+     40% {color: #56ae26;}
+	 50% {color: #cbc224;}
+     60% {color: #c85d22;}
+     70% {color: #ca2947;}
+	 80% {color: #cc2124;}
+     90% {color: #9e9a9a;}
+     100% {color: #242527;}
+}
+@-o-keyframes color_change {
+       0% {color: #7008a6;}
+     10% {color: #4245ce;}
+     20% {color: #087793;}
+     30% {color: #16805e;}
+     40% {color: #56ae26;}
+	 50% {color: #cbc224;}
+     60% {color: #c85d22;}
+     70% {color: #ca2947;}
+	 80% {color: #cc2124;}
+     90% {color: #9e9a9a;}
+     100% {color: #242527;}
+}

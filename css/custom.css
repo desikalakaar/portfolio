@@ -4,11 +4,11 @@ div.change_bg {width: 100%;
   height: 100%;
 }
 div.change_bg {
-  -webkit-animation: bg_change 30s infinite alternate;
-  -moz-animation: bg_change 30s infinite alternate;
-  -ms-animation: bg_change 30s infinite alternate;
-  -o-animation: bg_change 30s infinite alternate;
-  animation: bg_change 30s infinite alternate;
+  -webkit-animation: bg_change 40s infinite alternate;
+  -moz-animation: bg_change 40s infinite alternate;
+  -ms-animation: bg_change 40s infinite alternate;
+  -o-animation: bg_change 40s infinite alternate;
+  animation: bg_change 40s infinite alternate;
 }
 @-webkit-keyframes bg_change {
       0% {background-color: #a12fdc;}
@@ -67,11 +67,11 @@ div.change_bg {
 .always_center p{font-size:2.5rem;font-family: 'Open Sans Condensed', sans-serif;line-height: 1;color: rgba(0, 0, 0, 0.4);}
 
 .color_change {
-  -webkit-animation: color_change 30s infinite alternate;
-  -moz-animation: color_change 30s infinite alternate;
-  -ms-animation: color_change 30s infinite alternate;
-  -o-animation: color_change 30s infinite alternate;
-  animation: color_change 30s infinite alternate;
+  -webkit-animation: color_change 40s infinite alternate;
+  -moz-animation: color_change 40s infinite alternate;
+  -ms-animation: color_change 40s infinite alternate;
+  -o-animation: color_change 40s infinite alternate;
+  animation: color_change 40s infinite alternate;
 }
 @-webkit-keyframes color_change {
       0% {color: #7008a6;}
@@ -126,18 +126,7 @@ div.change_bg {
      100% {color: #242527;}
 }
 @media (max-width:640px){
-/*	div.change_bg {
-  animation-name: bg_change;
-  animation-duration: 100s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-}
-.color_change {
-  animation-name: color_change;
-  animation-duration: 100s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-}	*/
+div.change_bg {animation-duration: 50s;}
+.color_change {animation-duration: 50s;}
 svg.cust_svg {width: 60%;}
-
-	}
+}
